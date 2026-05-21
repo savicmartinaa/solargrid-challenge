@@ -1,0 +1,513 @@
+{
+  "manufacturers": [
+    {
+      "id": 1,
+      "name": "SunVolt Energy",
+      "slug": "sunvolt-energy",
+      "country": "Germany",
+      "city": "Munich",
+      "founded_year": 2004,
+      "website": "https://sunvolt-energy.example.com",
+      "logo_url": "https://ui-avatars.com/api/?name=SunVolt+Energy&background=F59E0B&color=fff&size=200&bold=true&format=png",
+      "description": "European leader in high-efficiency monocrystalline solar panels and integrated energy systems."
+    },
+    {
+      "id": 2,
+      "name": "GreenArc Power",
+      "slug": "greenarc-power",
+      "country": "China",
+      "city": "Shanghai",
+      "founded_year": 2008,
+      "website": "https://greenarc-power.example.com",
+      "logo_url": "https://ui-avatars.com/api/?name=GreenArc+Power&background=10B981&color=fff&size=200&bold=true&format=png",
+      "description": "One of the world's largest manufacturers of solar panels and hybrid inverters with global distribution."
+    },
+    {
+      "id": 3,
+      "name": "VoltWave Systems",
+      "slug": "voltwave-systems",
+      "country": "United States",
+      "city": "Austin, TX",
+      "founded_year": 2012,
+      "website": "https://voltwave-systems.example.com",
+      "logo_url": "https://ui-avatars.com/api/?name=VoltWave+Systems&background=6366F1&color=fff&size=200&bold=true&format=png",
+      "description": "Specializes in residential battery storage and EV charging solutions with smart grid integration."
+    },
+    {
+      "id": 4,
+      "name": "NovaGrid Tech",
+      "slug": "novagrid-tech",
+      "country": "South Korea",
+      "city": "Seoul",
+      "founded_year": 2006,
+      "website": "https://novagrid-tech.example.com",
+      "logo_url": "https://ui-avatars.com/api/?name=NovaGrid+Tech&background=EF4444&color=fff&size=200&bold=true&format=png",
+      "description": "Premium manufacturer of high-capacity lithium battery systems and commercial-grade inverters."
+    },
+    {
+      "id": 5,
+      "name": "Helios Solar Co.",
+      "slug": "helios-solar-co",
+      "country": "Japan",
+      "city": "Osaka",
+      "founded_year": 2001,
+      "website": "https://helios-solar.example.com",
+      "logo_url": "https://ui-avatars.com/api/?name=Helios+Solar&background=F97316&color=fff&size=200&bold=true&format=png",
+      "description": "Pioneer in heterojunction solar cell technology with industry-leading efficiency ratings."
+    },
+    {
+      "id": 6,
+      "name": "TerraCharge Ltd.",
+      "slug": "terracharge-ltd",
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "founded_year": 2015,
+      "website": "https://terracharge.example.com",
+      "logo_url": "https://ui-avatars.com/api/?name=TerraCharge&background=0EA5E9&color=fff&size=200&bold=true&format=png",
+      "description": "Fast-growing European manufacturer of smart EV chargers and home energy management systems."
+    }
+  ],
+  "equipment": [
+    {
+      "id": 1,
+      "model_name": "SV-400M Pro",
+      "equipment_type": "panel",
+      "manufacturer_id": 1,
+      "power_rating_w": 400,
+      "efficiency_percent": 21.3,
+      "warranty_years": 25,
+      "weight_kg": 19.5,
+      "dimensions": {
+        "w": 1722,
+        "h": 1134,
+        "d": 30
+      },
+      "price": 189.0,
+      "certification": "IEC 61215, IEC 61730, MCS",
+      "release_year": 2023,
+      "image_url": null,
+      "description": "High-output monocrystalline PERC panel for residential rooftops. Half-cut cell design for improved shade tolerance."
+    },
+    {
+      "id": 2,
+      "model_name": "SV-450M Ultra",
+      "equipment_type": "panel",
+      "manufacturer_id": 1,
+      "power_rating_w": 450,
+      "efficiency_percent": 22.1,
+      "warranty_years": 25,
+      "weight_kg": 21.8,
+      "dimensions": {
+        "w": 1762,
+        "h": 1134,
+        "d": 30
+      },
+      "price": 229.0,
+      "certification": "IEC 61215, IEC 61730, MCS, UL 61730",
+      "release_year": 2024,
+      "image_url": null,
+      "description": "Premium TOPCon cell panel with bifacial design. Excellent low-light and high-temperature performance."
+    },
+    {
+      "id": 3,
+      "model_name": "GA-380S",
+      "equipment_type": "panel",
+      "manufacturer_id": 2,
+      "power_rating_w": 380,
+      "efficiency_percent": 20.4,
+      "warranty_years": 25,
+      "weight_kg": 18.7,
+      "dimensions": {
+        "w": 1722,
+        "h": 1134,
+        "d": 35
+      },
+      "price": 142.0,
+      "certification": "IEC 61215, IEC 61730, CE",
+      "release_year": 2023,
+      "image_url": null,
+      "description": "Budget-friendly monocrystalline panel with solid performance. Ideal for large-scale residential installations."
+    },
+    {
+      "id": 4,
+      "model_name": "GA-420B Bifacial",
+      "equipment_type": "panel",
+      "manufacturer_id": 2,
+      "power_rating_w": 420,
+      "efficiency_percent": 21.6,
+      "warranty_years": 30,
+      "weight_kg": 22.1,
+      "dimensions": {
+        "w": 1762,
+        "h": 1134,
+        "d": 30
+      },
+      "price": 198.0,
+      "certification": "IEC 61215, IEC 61730, CE, UL 61730",
+      "release_year": 2024,
+      "image_url": null,
+      "description": "Bifacial glass-glass panel capturing reflected light from both sides. Enhanced durability and 30-year warranty."
+    },
+    {
+      "id": 5,
+      "model_name": "HS-410 HJT",
+      "equipment_type": "panel",
+      "manufacturer_id": 5,
+      "power_rating_w": 410,
+      "efficiency_percent": 22.5,
+      "warranty_years": 25,
+      "weight_kg": 20.3,
+      "dimensions": {
+        "w": 1722,
+        "h": 1134,
+        "d": 30
+      },
+      "price": 275.0,
+      "certification": "IEC 61215, IEC 61730, JET, MCS",
+      "release_year": 2024,
+      "image_url": null,
+      "description": "Heterojunction technology panel with industry-leading temperature coefficient. Best-in-class hot climate performance."
+    },
+    {
+      "id": 6,
+      "model_name": "HS-375 Classic",
+      "equipment_type": "panel",
+      "manufacturer_id": 5,
+      "power_rating_w": 375,
+      "efficiency_percent": 20.1,
+      "warranty_years": 25,
+      "weight_kg": 18.2,
+      "dimensions": {
+        "w": 1722,
+        "h": 1134,
+        "d": 35
+      },
+      "price": 165.0,
+      "certification": "IEC 61215, IEC 61730, JET",
+      "release_year": 2022,
+      "image_url": null,
+      "description": "Reliable monocrystalline panel with proven field performance. Over 2 million units deployed worldwide."
+    },
+    {
+      "id": 7,
+      "model_name": "GA-HYB-5K",
+      "equipment_type": "inverter",
+      "manufacturer_id": 2,
+      "power_rating_w": 5000,
+      "efficiency_percent": 97.6,
+      "warranty_years": 10,
+      "weight_kg": 16.0,
+      "dimensions": {
+        "w": 516,
+        "h": 440,
+        "d": 184
+      },
+      "price": 980.0,
+      "certification": "IEC 62109, CE, VDE 4105",
+      "release_year": 2023,
+      "image_url": null,
+      "description": "Hybrid inverter with dual MPPT trackers. Supports battery storage and grid feed-in. Built-in Wi-Fi monitoring."
+    },
+    {
+      "id": 8,
+      "model_name": "GA-HYB-8K",
+      "equipment_type": "inverter",
+      "manufacturer_id": 2,
+      "power_rating_w": 8000,
+      "efficiency_percent": 97.8,
+      "warranty_years": 10,
+      "weight_kg": 22.5,
+      "dimensions": {
+        "w": 547,
+        "h": 480,
+        "d": 184
+      },
+      "price": 1390.0,
+      "certification": "IEC 62109, CE, VDE 4105, AS/NZS 4777",
+      "release_year": 2024,
+      "image_url": null,
+      "description": "High-capacity hybrid inverter for larger homes. Three MPPT inputs, EPS backup, and smart load management."
+    },
+    {
+      "id": 9,
+      "model_name": "NG-INV-6K",
+      "equipment_type": "inverter",
+      "manufacturer_id": 4,
+      "power_rating_w": 6000,
+      "efficiency_percent": 98.0,
+      "warranty_years": 12,
+      "weight_kg": 14.8,
+      "dimensions": {
+        "w": 505,
+        "h": 398,
+        "d": 165
+      },
+      "price": 1150.0,
+      "certification": "IEC 62109, CE, UL 1741, VDE 4105",
+      "release_year": 2024,
+      "image_url": null,
+      "description": "Premium string inverter with industry-leading 98% peak efficiency. Fanless design with natural convection cooling."
+    },
+    {
+      "id": 10,
+      "model_name": "NG-INV-10K",
+      "equipment_type": "inverter",
+      "manufacturer_id": 4,
+      "power_rating_w": 10000,
+      "efficiency_percent": 98.2,
+      "warranty_years": 12,
+      "weight_kg": 26.3,
+      "dimensions": {
+        "w": 580,
+        "h": 505,
+        "d": 200
+      },
+      "price": 1780.0,
+      "certification": "IEC 62109, CE, UL 1741, VDE 4105",
+      "release_year": 2024,
+      "image_url": null,
+      "description": "Commercial-grade hybrid inverter with 10kW output. Supports parallel connection for up to 30kW systems."
+    },
+    {
+      "id": 11,
+      "model_name": "SV-INV-3.6K",
+      "equipment_type": "inverter",
+      "manufacturer_id": 1,
+      "power_rating_w": 3600,
+      "efficiency_percent": 97.2,
+      "warranty_years": 10,
+      "weight_kg": 9.8,
+      "dimensions": {
+        "w": 420,
+        "h": 310,
+        "d": 145
+      },
+      "price": 620.0,
+      "certification": "IEC 62109, CE, VDE 4105, MCS",
+      "release_year": 2023,
+      "image_url": null,
+      "description": "Compact single-phase inverter for small residential systems. Plug-and-play installation with integrated DC switch."
+    },
+    {
+      "id": 12,
+      "model_name": "VW-BAT-10",
+      "equipment_type": "battery",
+      "manufacturer_id": 3,
+      "power_rating_w": 5000,
+      "efficiency_percent": 95.5,
+      "warranty_years": 10,
+      "weight_kg": 114.0,
+      "dimensions": {
+        "w": 1070,
+        "h": 610,
+        "d": 175
+      },
+      "price": 5200.0,
+      "certification": "UL 9540, IEC 62619, UN 38.3",
+      "release_year": 2024,
+      "capacity_kwh": 10.0,
+      "chemistry": "LFP (Lithium Iron Phosphate)",
+      "image_url": null,
+      "description": "Modular home battery with 10 kWh usable capacity. Stackable up to 30 kWh. Floor or wall mountable."
+    },
+    {
+      "id": 13,
+      "model_name": "VW-BAT-5",
+      "equipment_type": "battery",
+      "manufacturer_id": 3,
+      "power_rating_w": 3500,
+      "efficiency_percent": 95.0,
+      "warranty_years": 10,
+      "weight_kg": 62.0,
+      "dimensions": {
+        "w": 580,
+        "h": 610,
+        "d": 175
+      },
+      "price": 2900.0,
+      "certification": "UL 9540, IEC 62619, UN 38.3",
+      "release_year": 2023,
+      "capacity_kwh": 5.0,
+      "chemistry": "LFP (Lithium Iron Phosphate)",
+      "image_url": null,
+      "description": "Compact home battery for smaller systems. Pairs with VW-BAT-10 for flexible capacity expansion."
+    },
+    {
+      "id": 14,
+      "model_name": "NG-ESS-15",
+      "equipment_type": "battery",
+      "manufacturer_id": 4,
+      "power_rating_w": 7500,
+      "efficiency_percent": 96.0,
+      "warranty_years": 15,
+      "weight_kg": 152.0,
+      "dimensions": {
+        "w": 1200,
+        "h": 650,
+        "d": 250
+      },
+      "price": 7800.0,
+      "certification": "UL 9540, IEC 62619, CE, UN 38.3",
+      "release_year": 2024,
+      "capacity_kwh": 15.0,
+      "chemistry": "NMC (Nickel Manganese Cobalt)",
+      "image_url": null,
+      "description": "High-capacity battery for energy-intensive homes. 15-year warranty with guaranteed 80% capacity retention."
+    },
+    {
+      "id": 15,
+      "model_name": "HS-LFP-9.6",
+      "equipment_type": "battery",
+      "manufacturer_id": 5,
+      "power_rating_w": 4800,
+      "efficiency_percent": 95.8,
+      "warranty_years": 15,
+      "weight_kg": 98.0,
+      "dimensions": {
+        "w": 960,
+        "h": 580,
+        "d": 200
+      },
+      "price": 4950.0,
+      "certification": "IEC 62619, JET, UN 38.3",
+      "release_year": 2024,
+      "capacity_kwh": 9.6,
+      "chemistry": "LFP (Lithium Iron Phosphate)",
+      "image_url": null,
+      "description": "Long-life LFP battery rated for 8000+ cycles. Integrated BMS with cloud monitoring and firmware updates."
+    },
+    {
+      "id": 16,
+      "model_name": "VW-EVC-22",
+      "equipment_type": "ev_charger",
+      "manufacturer_id": 3,
+      "power_rating_w": 22000,
+      "efficiency_percent": 99.0,
+      "warranty_years": 5,
+      "weight_kg": 7.5,
+      "dimensions": {
+        "w": 260,
+        "h": 260,
+        "d": 110
+      },
+      "price": 890.0,
+      "certification": "IEC 61851, CE, UL",
+      "release_year": 2024,
+      "connector_type": "Type 2",
+      "cable_length_m": 5,
+      "image_url": null,
+      "description": "Smart 22kW AC wallbox with dynamic load balancing and solar surplus charging mode. RFID and app control."
+    },
+    {
+      "id": 17,
+      "model_name": "VW-EVC-7",
+      "equipment_type": "ev_charger",
+      "manufacturer_id": 3,
+      "power_rating_w": 7400,
+      "efficiency_percent": 99.0,
+      "warranty_years": 3,
+      "weight_kg": 4.2,
+      "dimensions": {
+        "w": 220,
+        "h": 220,
+        "d": 95
+      },
+      "price": 490.0,
+      "certification": "IEC 61851, CE",
+      "release_year": 2023,
+      "connector_type": "Type 2",
+      "cable_length_m": 5,
+      "image_url": null,
+      "description": "Affordable single-phase home charger. Simple plug-and-charge with LED status indicator."
+    },
+    {
+      "id": 18,
+      "model_name": "TC-SMART-11",
+      "equipment_type": "ev_charger",
+      "manufacturer_id": 6,
+      "power_rating_w": 11000,
+      "efficiency_percent": 99.0,
+      "warranty_years": 5,
+      "weight_kg": 5.8,
+      "dimensions": {
+        "w": 240,
+        "h": 240,
+        "d": 105
+      },
+      "price": 680.0,
+      "certification": "IEC 61851, CE, MID",
+      "release_year": 2024,
+      "connector_type": "Type 2",
+      "cable_length_m": 7,
+      "image_url": null,
+      "description": "Three-phase 11kW smart charger with integrated energy meter. Supports OCPP 1.6J for fleet management."
+    },
+    {
+      "id": 19,
+      "model_name": "TC-RAPID-50",
+      "equipment_type": "ev_charger",
+      "manufacturer_id": 6,
+      "power_rating_w": 50000,
+      "efficiency_percent": 94.0,
+      "warranty_years": 5,
+      "weight_kg": 120.0,
+      "dimensions": {
+        "w": 1900,
+        "h": 680,
+        "d": 380
+      },
+      "price": 18500.0,
+      "certification": "IEC 61851, IEC 61439, CE, MID",
+      "release_year": 2024,
+      "connector_type": "CCS2 + CHAdeMO",
+      "cable_length_m": 4,
+      "image_url": null,
+      "description": "DC fast charger for commercial and public installations. Dual connector supports all EV standards."
+    },
+    {
+      "id": 20,
+      "model_name": "SV-WALL-11",
+      "equipment_type": "ev_charger",
+      "manufacturer_id": 1,
+      "power_rating_w": 11000,
+      "efficiency_percent": 99.0,
+      "warranty_years": 5,
+      "weight_kg": 5.2,
+      "dimensions": {
+        "w": 235,
+        "h": 235,
+        "d": 100
+      },
+      "price": 720.0,
+      "certification": "IEC 61851, CE, MCS",
+      "release_year": 2024,
+      "connector_type": "Type 2",
+      "cable_length_m": 5,
+      "image_url": null,
+      "description": "Premium wallbox with solar integration. Automatically adjusts charging power based on available solar surplus."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@solargrid.example.com",
+      "name": "Marko Petrovic",
+      "role": "admin",
+      "password_plain": "admin123"
+    },
+    {
+      "id": 2,
+      "email": "editor@solargrid.example.com",
+      "name": "Ana Jovanovic",
+      "role": "editor",
+      "password_plain": "editor123"
+    },
+    {
+      "id": 3,
+      "email": "viewer@solargrid.example.com",
+      "name": "Nikola Stojanovic",
+      "role": "viewer",
+      "password_plain": "viewer123"
+    }
+  ]
+}

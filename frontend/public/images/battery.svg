@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <rect width="200" height="200" rx="16" fill="#FDF4FF"/>
+  <rect x="60" y="55" width="80" height="100" rx="6" fill="#A855F7" opacity="0.2" stroke="#A855F7" stroke-width="2"/>
+  <rect x="80" y="45" width="40" height="10" rx="3" fill="#A855F7" opacity="0.4"/>
+  <rect x="70" y="95" width="60" height="20" rx="3" fill="#A855F7" opacity="0.3"/>
+  <rect x="70" y="70" width="60" height="20" rx="3" fill="#A855F7" opacity="0.5"/>
+  <rect x="70" y="120" width="60" height="20" rx="3" fill="#A855F7" opacity="0.15"/>
+  <text x="100" y="180" text-anchor="middle" fill="#A855F7" font-size="14" font-family="system-ui">Battery</text>
+</svg>
