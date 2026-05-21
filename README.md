@@ -167,6 +167,7 @@ Seed users are defined in `seed-data.json`.
 - `extra_fields` is stored as JSONB because each equipment type can have a different set of extra attributes, and that structure may grow over time. Keeping those values in one flexible object avoids adding many nullable columns that only apply to one product type.
 - Equipment listing is ordered by `id` to keep catalog and admin ordering stable after edits. Without an explicit database order, updated rows can appear in a different position.
 - Product images can be provided as external URLs or uploaded files. If no image is provided, the frontend falls back to a type-specific default image.
+- The small `N` button in the corner is the default Next.js DevTools/development overlay. It can show route and bundler information while running the frontend locally, but it only appears in development mode and is not part of the application UI.
 - Manufacturer data is normalized into a separate table and loaded with equipment responses to avoid duplicating manufacturer information across products.
 - The backend auto-seeds only when manufacturers are empty. This keeps startup idempotent for local development.
 - Docker startup runs migrations automatically for convenience. In a production deployment, migrations would usually run as a separate release step before starting app containers.
