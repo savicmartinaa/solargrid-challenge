@@ -86,7 +86,13 @@ def upgrade() -> None:
         unique=True,
         if_not_exists=True,
     )
-    op.create_index(op.f("ix_users_email"), "users", ["email"], unique=True, if_not_exists=True)
+    op.create_index(
+        op.f("ix_users_email"), 
+        "users", 
+        ["email"], 
+        unique=True, 
+        if_not_exists=True
+    )
     op.create_index(
         op.f("ix_equipment_equipment_type"),
         "equipment",
